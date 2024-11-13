@@ -19,7 +19,7 @@ a{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #18181b ;
+    background-color: #ffbef5 ;
 }
 
 nav {
@@ -46,7 +46,7 @@ nav {
 .link a{
     position: relative;
     padding-bottom: 0.75rem;
-    color: #fff;
+    color: #27272a;
 }
 
 .link a::after{
@@ -75,14 +75,14 @@ nav {
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background-color: #416dff;
 }
 
 
 .container{
     max-width: 1200px;
     margin: auto;
-    padding: 5rem 2rem;
+    padding: 2rem 1rem;
 }
 
 .blur{
@@ -93,22 +93,22 @@ nav {
 
 header{
     position: relative;
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 header .content h4{
     margin-bottom: 1rem;
-    color: #ccc;
+    color: #323232;
     font-size: 1rem;
     font-weight: 600;
 }
 
 header .content h1{
-    color: #fff;
+    color: #27272a;
     margin-bottom: -1rem;
     font-size: 3rem;
     font-weight: 700;
@@ -117,13 +117,13 @@ header .content h1{
 
 header .content h1 span{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #fff ;
+    -webkit-text-stroke: 1px #27272a ;
 }
 
 header .content p{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #ccc;
+    color: #27272a;
     max-width: 450px;
 }
 
@@ -146,13 +146,13 @@ header .image::before{
 }
 
 header .image img{
-    max-width: 450px;
+    max-width: 350px;
     margin: auto;   
 }
 
 section .header{
     margin-bottom: 1rem;
-    color: #fff;
+    color: #27272a;
     text-align: center;
     font-size: 2.25rem;
     font-weight: 600;
@@ -166,7 +166,7 @@ section .header{
 }
 
 .features .card{
-    background-color: #27272a;
+    background-color: #aecbff;
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -174,8 +174,8 @@ section .header{
 }
 
 .features .card:hover{
-    background-color: #323232;
-    border-color: #fff;
+    background-color: #fed7ff;
+    border-color: #000000;
 }
 
 .features .card span{
@@ -184,24 +184,24 @@ section .header{
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
-    color: #fff;
+    color: #27272a;
     border-radius: 5px;
 }
 
 .features .card h4{
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: #27272a;
     font-size: 1.2rem;
     font-weight: 600; 
 }
 
 .features .card p{
-    color: #ccc;
+    color: #27272a;
     margin-bottom: 1rem;
 }
 
 .features .card a{
-    color: #fff;
+    color: #323232;
     transition: all 0.3s ease;
 }
 
@@ -213,7 +213,7 @@ section .header{
     max-width: 600px;
     margin: auto; 
     text-align: center;
-    color: #ccc;
+    color: #323232;
 }
 
 .pricing{
@@ -225,7 +225,7 @@ section .header{
 
 .pricing .card{
     padding: 3rem 2rem;
-    background-color: #27272a;
+    background-color: #aecbff;
     display: flex;
     flex-direction: column;
     border: 2px solid transparent;
@@ -234,7 +234,7 @@ section .header{
 }
 
 .pricing .card:hover{
-    background-color: #323232;
+    background-color: #fed7ff;
     border-color: #fff;
 }
 
@@ -245,13 +245,13 @@ section .header{
 
 .pricing .card h4{
     margin-bottom: 1rem;
-    color: #fff;
+    color: #27272a;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
 .pricing .card h3{
-    color: #fff; 
+    color: #27272a; 
     padding-top: 1rem;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -260,25 +260,25 @@ section .header{
 }
 
 .pricing .card p{
-    color: #fff;
+    color: #27272a;
     margin-bottom: 0.75rem;
 }
 
 .pricing .card p i{
-    color: #ccc;
+    color: #323232;
     font-size: 1.2rem;
     margin-right: 0.3rem;
 }
 
 .pricing .card button{
-    color: #fff;
+    color: #27272a;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #27272a;
 }
 
 .pricing .card button:hover{
-    background-color: #1e40af;
-    border-color: #1e40af
+    background-color: #fed7ff;
+    border-color: #000000
 }
 
 footer{
@@ -294,7 +294,7 @@ footer .column .logo{
 }
 
 footer .column p{
-    color: #ccc;
+    color: #323232;
     margin-bottom: 2rem;
 }
 
@@ -305,8 +305,8 @@ footer .column .socials{
 }
 
 footer .column .socials a{
-    color: #ccc;
-    border: 1px solid #ccc;
+    color: #323232;
+    border: 1px solid #323232;
     padding: 5px 10px;
     font-size: 1.25rem;
     border-radius: 100%;
@@ -314,13 +314,13 @@ footer .column .socials a{
 }
 
 footer .column .socials a:hover{
-    color: #fff;
-    background-color: #1d4ed8;
-    border-color: #1d4ed8;
+    color: #27272a;
+    background-color: #fed7ff;
+    border-color: #aecbff;
 }
 
 footer .column h4{
-    color: #fff;
+    color: #27272a;
     margin-bottom: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
@@ -328,7 +328,7 @@ footer .column h4{
 
 footer .column > a{
     display: block;
-    color: #ccc;
+    color: #323232;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
@@ -341,7 +341,7 @@ footer .column > a:hover{
     max-width: 1200px;
     margin: auto; 
     padding: 1rem;
-    color: #fff;
+    color: #27272a;
     font-size: 0.8rem;
     text-align: center;
 }
@@ -376,7 +376,7 @@ footer .column > a:hover{
     }
     .pricing{
         grid-template-columns: repeat(1, 1fr);
-    }
+    }s
     footer{
         grid-template-columns: 1fr 150px;
     }
